@@ -57,6 +57,7 @@ def criar_cadastro():
     cep = st.text_input("CEP (apenas números, 8 dígitos)")
 
     cep_valido = False
+    cidade, rua, bairro = "", "", ""
     if cep:
         if validar_cep(cep):
             endereco_info = get_address_info(cep)
@@ -208,5 +209,4 @@ def main():
     elif escolha == "Aluno Existente":
         visualizar_alunos()
     elif escolha == "Alterar Cadastro":
-        alterar_cadastro()
-    elif escolha == "Acessar Cursos":
+        alterar
