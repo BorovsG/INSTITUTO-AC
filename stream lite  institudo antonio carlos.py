@@ -213,6 +213,3 @@ def main():
         exibir_cursos()
     elif escolha == "Sair":
         st.subheader("Obrigado por usar o sistema!")
-        st.stop()
-
-if
