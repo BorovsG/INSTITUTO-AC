@@ -213,4 +213,5 @@ def main():
     elif escolha == "Acessar Cursos":
         exibir_cursos()
     elif escolha == "Sair":
-        st.subheader("
+
+streamlit run instituto_antonio_carlos.py
