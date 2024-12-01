@@ -210,4 +210,7 @@ def main():
         visualizar_alunos()
     elif escolha == "Alterar Cadastro":
         alterar_cadastro()
-    elif escolha == "Acessar
+    elif escolha == "Acessar Cursos":
+        exibir_cursos()
+    elif escolha == "Sair":
+        st.subheader("
