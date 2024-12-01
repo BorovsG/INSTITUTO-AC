@@ -210,6 +210,3 @@ def main():
     elif escolha == "Alterar Cadastro":
         alterar_cadastro()
     elif escolha == "Acessar Cursos":
-        exibir_cursos()
-    elif escolha == "Sair":
-        st.subheader("Obrigado por usar o sistema!")
