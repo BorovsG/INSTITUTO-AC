@@ -209,4 +209,5 @@ def main():
     elif escolha == "Aluno Existente":
         visualizar_alunos()
     elif escolha == "Alterar Cadastro":
-        alterar
+        alterar_cadastro()
+    elif escolha == "Acessar
